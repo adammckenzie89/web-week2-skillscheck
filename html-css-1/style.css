@@ -1,0 +1,158 @@
+body {
+    height: 200vh;
+    width: 100vw;
+}
+
+
+
+header {
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 50vh;
+    margin: 0px;
+    padding: 2px;
+}
+
+#tmyk {
+    display: flex;
+    text-align: center;
+    font-size: 4em;
+    color: rgb(230, 230, 93);
+    left: 19%;
+    position: absolute;
+    top: 24%;
+    font-family: Helvetica;
+    font-weight: bolder;
+    width: 60vw;
+   
+}
+
+#nav {
+    padding: 1px;
+    margin: 0%;
+    display: flex;
+    background-color: gray;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+#list {
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+    top: 2%;
+}
+
+#name {
+    position: absolute;
+    font-size: 2.5em;
+    text-align: center;
+    align-items: center;
+    color: white;
+    top: 1%;
+    left: 10px;
+    font-family: helvetica;
+    font-weight: 200;
+}
+
+#right {
+    display: flex;
+    width: 30vw;
+    justify-content:space-evenly;
+    position: absolute;
+    right: 25px;
+    align-items: center;
+    top: 2%;
+    font-size: 2em;
+    color: white;
+    font-family: helvetica;
+    font-weight: 200;
+}
+
+#green {
+    display: flex;
+    padding: 2%;
+    margin: 3px;
+    display: flex;
+    height: 25vh;
+    width: 20vw;
+    background-color: aquamarine;
+    justify-content: space-around;
+    border-radius: 25%;
+    position: absolute;
+    bottom:15%;
+    left: 4%;
+}
+
+#greenC {
+    position: absolute;
+    display: flex;
+    height: 25vh;
+    width: 20vw;
+    background-color: aquamarine;
+    justify-content: space-around;
+    left: 35%;
+    border-radius: 25%;
+    padding: 2%;
+    margin: 3px;
+    bottom:15%;
+}
+
+#greenR {
+    position: absolute;
+    display: flex;
+    height: 25vh;
+    width: 20vw;
+    background-color: aquamarine;
+    left: 66%;
+    border-radius: 25%;
+    padding: 2%;
+    margin: 3px;
+    bottom: 15%;
+}
+
+#orange {
+    position: absolute;
+    background-color:  rgb(255, 170, 23);
+    height: 30vh;
+    width: 40vw;
+    left: 5%;
+    bottom: -20%;
+}
+
+#orange2 {
+    position: absolute;
+    background-color: rgb(255, 170, 23);
+    height: 30vh;
+    width: 40vw;
+    right: 10%;
+    bottom: -20%;
+}
+
+#foot {
+    position: absolute;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(56, 50, 75);
+    bottom: -100%;
+}
+
+#dog {
+    position: absolute;
+    height: 30vh;
+    width: 28vw;
+    bottom: -70%;
+    right: 10%;
+}
+
+#text {
+    position: absolute;
+    height: 40vh;
+    width: 30vw;
+    bottom: -80%;
+    right: 60%;
+}
